@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--come back to first fragment-->
+    <item
+        android:id="@+id/termsAndConditions"
+        android:title="Terms &amp; conditions"
+        app:showAsAction="never"/>
+
+    <!--come back to back fragment-->
+    <!--android:menuCategory="secondary"-->
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Settings"
+        android:menuCategory="secondary"
+        app:showAsAction="never"/>
+
+</menu>
